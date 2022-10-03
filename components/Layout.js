@@ -1,3 +1,4 @@
+import Content from "./Content";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import TopNav from "./TopNav";
@@ -7,6 +8,7 @@ const Layout =({children}) =>{
         <div className="antialiased bg-gradient-to-r">
         <TopNav/>
 <Navbar/>
+<Content/>
 {children}
 <Footer/>
         </div>
