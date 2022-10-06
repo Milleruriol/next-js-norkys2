@@ -14,7 +14,7 @@ export default function Navbar() {
 	const onAddClick=(e)=> navRef.current.classList.add("hidden");
 
     return(<>
-	<header class="sticky top-0 z-50">
+	<header className="sticky top-0 z-50">
        <nav ref={ref} className="relative px-4 py-4 flex justify-between items-center bg-white">
 		<a className="text-3xl font-bold leading-none" href="#">
 			{/* <svg className="h-10" alt="logo" viewBox="0 0 100 100">
@@ -35,7 +35,7 @@ export default function Navbar() {
 			<li className="text-gray-300">
 			
 			</li>
-			<li><a className="text-sm text-blue-600 font-bold" href="#">About Us</a></li>
+			<li><a className="text-sm text-gray-400 hover:text-gray-500" href="#">About Us</a></li>
 			<li className="text-gray-300">
 				
 			</li>

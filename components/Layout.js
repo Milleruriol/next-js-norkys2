@@ -8,8 +8,10 @@ const Layout =({children}) =>{
         <div className="antialiased bg-gradient-to-r">
         <TopNav/>
 <Navbar/>
-<Content/>
+
 {children}
+
+
 <Footer/>
         </div>
     )
