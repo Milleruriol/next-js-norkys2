@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Norky's Restaurant Website
 
-## Getting Started
+A responsive restaurant website built with Next.js, React, and Tailwind CSS. The project demonstrates component-based frontend development, responsive navigation, reusable content sections, and deployment through Vercel.
 
-First, run the development server:
+## Live Demo
+
+[View the deployed application](https://next-js-norkys2.vercel.app)
+
+## Features
+
+- Responsive restaurant landing page
+- Reusable React components
+- Mobile-friendly navigation
+- Menu and promotional content sections
+- Next.js page-based routing
+- Tailwind CSS styling
+- Optimized production deployment on Vercel
+
+## Technology
+
+- Next.js 12
+- React 18
+- JavaScript
+- Tailwind CSS
+- Headless UI
+- Heroicons and React Icons
+- Vercel
+
+## Run Locally
+
+### Requirements
+
+- Node.js
+- npm or Yarn
+
+### Installation
+
+```bash
+git clone https://github.com/Milleruriol/next-js-norkys2.git
+cd next-js-norkys2
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+## Available Commands
 
 ```bash
 npm run dev
-# or
-yarn dev
+npm run build
+npm start
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- `pages/` — Application routes
+- `components/` — Reusable interface components
+- `styles/` — Global and component styling
+- `public/` — Static images and assets
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Purpose
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project was created to practice building and deploying a responsive business website using the Next.js and React ecosystem.
